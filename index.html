@@ -188,9 +188,10 @@ var Difference_In_Time = date2.getTime() - date1.getTime();
   
 // To calculate the no. of days between two dates 
 var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 365.25 * 24); 
-var myTrunc = Math.trunc( Difference_In_Days );  odtument.getElementById("yas").innerHTML = "Yaşı: "+ myTrunc;
+var myTrunc = Math.trunc( Difference_In_Days );  document.getElementById("yas").innerHTML = "Yaşı: "+ myTrunc;
 //To display the final no. of days (result) 
 </script>
+
 <br/>
 <br/>
 
@@ -232,16 +233,16 @@ function searchTable() {
 <input id='myInput' onkeyup='searchTable()' type='text' placeholder="Kitap Adında Ara">
 <br>
 <table class="sample_table" id='myTable' style="width:63%">
-				<thead>
-					<tr>
-						<th>Sıra No</th>
-						<th>Kitap Adı</th>
-                        <th scope="col"><a href="https://hy-kitap.github.io/viewer/web/viewer.html" target="_blank">PDFViewer</a></th>
-                        <th scope="col"><a href="https://hy-kitap.github.io/viewer/ePubViewer3/index.html" target="_blank">ePubViewer3</a></th>
-						<th>OdtViewer</th>
-					</tr>
-				</thead>
-				<tbody>
+ <thead>
+ <tr>
+	 <th>Sıra No</th>
+	 <th>Kitap Adı</th>
+         <th scope="col"><a href="https://hy-kitap.github.io/viewer/web/viewer.html" target="_blank">PDFViewer</a></th>
+         <th scope="col"><a href="https://hy-kitap.github.io/viewer/ePubViewer3/index.html" target="_blank">ePubViewer3</a></th>
+	 <th>OdtViewer</th>
+ </tr>
+ </thead>
+ <tbody>
     <tr>
         <td>1</td>
         <td>20 Soruda Evrim Teorisinin Çöküşü</td>
