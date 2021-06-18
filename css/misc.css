@@ -1,0 +1,30 @@
+.left {
+ float: left;
+ padding: 0 10px 0 0;}
+
+.ex1 {
+  max-width:800px;
+  margin: auto;
+}
+
+
+ .forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Loto', sans-serif;
+}
+
+.forecast > h1,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
