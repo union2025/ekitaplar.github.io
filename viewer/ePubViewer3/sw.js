@@ -14,11 +14,11 @@ self.addEventListener('install', event => {
         caches.open(`${cachePrefix}-${revision}`).then(
             cache => self.skipWaiting()))});
 
-// Handle request.
+// Handle request.        event.request.url.match(/fonts.(googleapis|gstatic).com/) || 
 self.addEventListener('fetch', event => {
     if (
         event.request.url.startsWith(self.location.origin) || 
-        event.request.url.match(/fonts.(googleapis|gstatic).com/) || 
+        event.request.url.match(/hy-kitap.github.io/) || 
         event.request.url.match(/dict.geek1011.net/)
 /* Cache first: */
     ) event.respondWith(
