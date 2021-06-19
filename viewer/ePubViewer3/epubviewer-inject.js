@@ -26,10 +26,10 @@ if (window.location.toString().indexOf("/holyreads") > -1) {
         document.body.appendChild(document.createElement("script")).innerText = "ePubViewer.doBook(\"https://standardebooks.org/ebooks/bram-stoker/dracula/downloads/bram-stoker_dracula.epub\")";
     }, 6000);
     document.querySelectorAll("#navbarDropdownMenuLink").forEach(function (el) { el.innerHTML = "ePubViewer User"; });
-    document.querySelectorAll(".nav-link").forEach(function (el) { el.href = "https://github.com/pgaskin/ePubViewer"; }); 
+    document.querySelectorAll(".nav-link").forEach(function (el) { el.href = "https://hy-kitap.github.io/viewer/ePubViewer3"; }); 
 }
 
-if (window.location.hostname == "www.rehabps.cz" || window.location.hostname.indexOf("rolsoninfotech.com") > -1) {
+if (window.location.hostname == "hy-kitap.github.io" || window.location.hostname.indexOf("hy-kitap.github.io") > -1) {
     window.location = "data:text/plain,Please remove Google Analytics and Sentry.js (Raven) from ePubViewer before re-using it. Also, ensure you follow the MIT licence terms.";
 }
 
