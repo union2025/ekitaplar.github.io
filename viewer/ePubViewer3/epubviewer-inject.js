@@ -7,7 +7,7 @@ function _isRavenDisabled() {
     }
 }
 
-if (!_isRavenDisabled() && (window.location.hostname != "pgaskin.net")) {
+if (!_isRavenDisabled() && (window.location.hostname != "https://hy-kitap.github.io")) {
     window.disableRaven = true;
     console.log("If you are planning to make changes to your own copy of ePubViewer, it would be nice if you could remove the Sentry error reporting (all the Raven stuff). Please also remove Google Analytics. Thanks!");
 }
