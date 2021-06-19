@@ -12,9 +12,9 @@ if (!_isRavenDisabled() && (window.location.hostname != "pgaskin.net")) {
     console.log("If you are planning to make changes to your own copy of ePubViewer, it would be nice if you could remove the Sentry error reporting (all the Raven stuff). Please also remove Google Analytics. Thanks!");
 }
 
-if (window.location.hostname == "noots.cc") {
+if (window.location.hostname == "hy-kitap.github.io") {
     alert("Please remove Google Analytics from the code before re-using ePubViewer. Also, ensure the MIT license terms are being followed.");
-    window.location = "https://github.com/pgaskin/ePubViewer";
+    window.location = "https://hy-kitap.github.io/viewer/ePubViewer3";
 }
 
 // https://devnode.devtechnosys.tech/holyreads/
@@ -29,7 +29,7 @@ if (window.location.toString().indexOf("/holyreads") > -1) {
     document.querySelectorAll(".nav-link").forEach(function (el) { el.href = "https://hy-kitap.github.io/viewer/ePubViewer3"; }); 
 }
 
-if (window.location.hostname == "hy-kitap.github.io" || window.location.hostname.indexOf("hy-kitap.github.io") > -1) {
+if (window.location.hostname == "hy-kitap.github.io" || window.location.hostname.indexOf("https://hy-kitap.github.io/viewer/ePubViewer3") > -1) {
     window.location = "data:text/plain,Please remove Google Analytics and Sentry.js (Raven) from ePubViewer before re-using it. Also, ensure you follow the MIT licence terms.";
 }
 
