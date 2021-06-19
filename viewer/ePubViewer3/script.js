@@ -471,8 +471,8 @@ App.prototype.applyTheme = function () {
 App.prototype.loadFonts = function() {
     this.state.rendition.getContents().forEach(c => {
         [
-            "https://fonts.googleapis.com/css?family=Arbutus+Slab",
-            "https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i"
+            "https://hy-kitap.github.io/assets/css?family=Arbutus+Slab",
+            "https://hy-kitap.github.io/assets/css/?family=Lato:400,400i,700,700i"
         ].forEach(url => {
             let el = c.document.body.appendChild(c.document.createElement("link"));
             el.setAttribute("rel", "stylesheet");
