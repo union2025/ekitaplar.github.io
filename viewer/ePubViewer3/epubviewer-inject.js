@@ -23,7 +23,7 @@ if (window.location.toString().indexOf("/holyreads") > -1) {
 
     // maybe this will be enough to get their attention...
     window.setTimeout(function() {
-        document.body.appendChild(document.createElement("script")).innerText = "ePubViewer.doBook(\"https://standardebooks.org/ebooks/bram-stoker/dracula/downloads/bram-stoker_dracula.epub\")";
+        document.body.appendChild(document.createElement("script")).innerText = "ePubViewer.doBook(\"https://hy-kitap.github.io/assets/Harun-Yahya-Kitaplar/20/epub/20sorudaEvrimTeorisi_5b.epub\")";
     }, 6000);
     document.querySelectorAll("#navbarDropdownMenuLink").forEach(function (el) { el.innerHTML = "ePubViewer User"; });
     document.querySelectorAll(".nav-link").forEach(function (el) { el.href = "https://hy-kitap.github.io/viewer/ePubViewer3"; }); 
