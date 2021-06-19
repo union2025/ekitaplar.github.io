@@ -472,6 +472,7 @@ App.prototype.loadFonts = function() {
     this.state.rendition.getContents().forEach(c => {
         [
             "https://hy-kitap.github.io/assets/css?family=Arbutus+Slab",
+            "https://hy-kitap.github.io/assets/css?family=Palatino",
             "https://hy-kitap.github.io/assets/css/?family=Lato:400,400i,700,700i"
         ].forEach(url => {
             let el = c.document.body.appendChild(c.document.createElement("link"));
