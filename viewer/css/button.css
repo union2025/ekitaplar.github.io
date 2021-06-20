@@ -1,24 +1,11 @@
-.single-book .buttons .button,
-.single-book .buttons .button:link,
-.single-book .buttons .button:visited {
-    display: inline-block;
+.buttons {
+    display: block;
+    margin: 10px 0;
+    padding: 5px 3px;
     border: 1px solid #0074D9;
-    padding: 5px 4px;
-    margin: 3px;
     border-radius: 4px;
-    text-decoration: none;
-    color: #0074D9;
-}
-
-.single-book .buttons .button:hover {
+    border-top: 1px solid rgba(0, 0, 0, .15);
     border-color: #004479;
     color: #004479;
-}
-
-.single-book .cover .buttons {
-    display: block;
-}
-
-.single-book .meta .buttons {
-    display: none;
+    text-decoration: none;
 }
