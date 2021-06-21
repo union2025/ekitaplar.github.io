@@ -3,7 +3,7 @@
 ## About
 A web-based ebook viewer.
 
-<a href="https://pgaskin.net/ePubViewer">Try it out now.</a>
+<a href="https://hy-kitap.github.io/viewer/ePubViewer3">Try it out now.</a>
 
 ## Features
 - Modern, responsive UI

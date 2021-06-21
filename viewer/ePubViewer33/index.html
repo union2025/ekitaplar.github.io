@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ePubViewer</title>
+    <title>Harun Yahya ePubViewer</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="libs/normalize.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="/viewer/ePubViewer3/libs/normalize.min.css">
+    <link rel="stylesheet" href="/viewer/ePubViewer3/style.css">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="description" content="ePubViewer is an powerful, modern, and easy-to-use web app for reading ebooks.">
+    <meta name="description" content="Harun Yahya is an powerful, modern, and easy-to-use web app for reading ebooks.">
+    
+  <!-- FONT STYLESHEET -->
+    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+ 
 </head>
 
 <body>
@@ -78,13 +82,14 @@
                         <div class="setting">
                             <div class="setting-label">Font</div>
                             <div class="setting-content font chips" data-chips="font">
-                                <div class="font chip" style="font-family: 'Arial', Arimo, Liberation Sans, sans-serif;" data-value="'Arial', Arimo, Liberation Sans, sans-serif">Arial</div>
-                                <div class="font chip" style="font-family: 'Lato', sans-serif;" data-value="'Lato', sans-serif">Lato</div>
-                                <div class="font chip" style="font-family: 'Georgia', Liberation Serif, serif;" data-value="'Georgia', Liberation Serif, serif">Georgia</div>
-                                <div class="font chip" style="font-family: 'Times New Roman', Tinos, Liberation Serif, Times, serif;" data-value="'Times New Roman', Tinos, Liberation Serif, Times, serif"
-                                    data-default="true">Times New Roman</div>
-                                <div class="font chip" style="font-family: 'Arbutus Slab', serif;" data-value="'Arbutus Slab', serif">Arbutus Slab</div>
+                            <div class="font chip" style="font-family: 'Arial', Arimo, Liberation Sans, sans-serif;" data-value="'Arial', Arimo, Liberation Sans, sans-serif">Arial</div>
+                           <div class="font chip" style="font-family: 'Lato', sans-serif;" data-value="'Lato', sans-serif">Lato</div>
+                           <div class="font chip" style="font-family: 'Georgia', Liberation Serif, serif;" data-value="'Georgia', Liberation Serif, serif">Georgia</div>
+                           <div class="font chip" style="font-family: 'Times New Roman', Tinos, Liberation Serif, Times, serif;" data-value="'Times New Roman', Tinos, Liberation Serif, Times, serif" data-default="true">Times New Roman</div>
+                           <div class="font chip" style="font-family: 'Arbutus Slab', serif;" data-value="'Arbutus Slab', serif">Arbutus Slab</div>
+                           <div class="font chip" style="font-family: 'Nunito', serif;" data-value="'Arbutus Slab', serif">Nunito</div>
                             </div>
+                        </div>
                         </div>
                         <div class="setting">
                             <div class="setting-label">Font Size</div>
@@ -154,11 +159,11 @@
                             <div class="setting-label">About</div>
                             <div class="setting-content">
                                 ePubViewer v3.1.0
-                                <br /> Copyright 2019
-                                <a href="https://pgaskin.net">Patrick Gaskin</a>
                                 <br />
-                                <a href="https://github.com/pgaskin/ePubViewer">Code</a> |
-                                <a href="https://github.com/pgaskin/ePubViewer/issues">Report an issue</a>
+                                <a href="https://hy-kitap.github.io">ePubViewer3</a>
+                                <br />
+                                <a href="https://hy-kitap.github.io/viewer/ePubViewer3">Code</a> |
+                                <a href="https://hy-kitap.github.io/viewer/ePubViewer3">Report an issue</a>
                                 <br />
                                 <br /> This app requires Microsoft Edge 15+, Mozilla Firefox 50+, Chrome 50+, or Safari 10+.
                             </div>
@@ -197,7 +202,7 @@
                     <div class="message">
                         Unknown error. If this message does not disappear in a few seconds, try using a different browser (Chrome or Firefox), and
                         if the issue still persists,
-                        <a href="https://github.com/pgaskin/ePubViewer">report it here</a>.
+                        <a href="https://hy-kitap.github.io/viewer/ePubViewer3">report it here</a>.
                     </div>
                 </div>
             </div>
@@ -217,7 +222,7 @@
         </div>
     </div>
 
-    <script src="https://geek1011.net/epubviewer-inject.js"></script>
+    <script src="https://hy-kitap.github.io/viewer/ePubViewer3/epubviewer-inject.js"></script>
 
     <script>
         function isIE(userAgent) {
@@ -245,13 +250,14 @@
         } catch (err) { }
     </script>
 
-    <script src="polyfills/babel-polyfill.min.js"></script>
-    <script src="polyfills/fetch.js"></script>
-    <script src="polyfills/pep.min.js"></script>
-    <script src="libs/sanitize-html.min.js"></script>
-    <script src="libs/jszip.min.js"></script>
-    <script src="libs/epub.js"></script>
+    <script src="https://hy-kitap.github.io/viewer/ePubViewer3/polyfills/babel-polyfill.min.js"></script>
+    <script src="https://hy-kitap.github.io/viewer/ePubViewer3/polyfills/fetch.js"></script>
+    <script src="https://hy-kitap.github.io/viewer/ePubViewer3/polyfills/pep.min.js"></script>
+    <script src="https://hy-kitap.github.io/viewer/ePubViewer3/libs/sanitize-html.min.js"></script>
+    <script src="https://hy-kitap.github.io/viewer/ePubViewer3/libs/jszip.min.js"></script>
+    <script src="https://hy-kitap.github.io/viewer/ePubViewer3/libs/epub.js"></script>
 
+<!-- delete for mainstream
     <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
     <script>
         Raven.config('https://2ca31038f72145f787447a29b085007b@sentry.io/1239248', {
@@ -261,9 +267,9 @@
             }
         }).install();
     </script>
-
-    <script src="script.js"></script>
-
+-->
+    <script src="https://hy-kitap.github.io/viewer/ePubViewer3/script.js" crossorigin="anonymous"></script>
+<!-- cancel
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66226417-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -273,6 +279,8 @@
         gtag('js', new Date());
         gtag('config', 'UA-66226417-1');
     </script>
+    
+    -->
 <noscript>
     <img src="https://counter2000.herokuapp.com/ingress/d6a76dc8-0e99-4c68-8add-db423dc118cf/pixel.gif" title="counter" alt="counter">
 </noscript>
