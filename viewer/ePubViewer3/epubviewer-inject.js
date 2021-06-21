@@ -7,15 +7,15 @@ function _isRavenDisabled() {
     }
 }
 
-if (!_isRavenDisabled() && (window.location.hostname != "https://hy-kitap.github.io")) {
-    window.disableRaven = true;
-    console.log("If you are planning to make changes to your own copy of ePubViewer, it would be nice if you could remove the Sentry error reporting (all the Raven stuff). Please also remove Google Analytics. Thanks!");
-}
+// if (!_isRavenDisabled() && (window.location.hostname != "https://hy-kitap.github.io")) {
+//     window.disableRaven = true;
+//     console.log("If you are planning to make changes to your own copy of ePubViewer, it would be nice if you could remove the Sentry error reporting (all the Raven // stuff). Please also remove Google Analytics. Thanks!");
+// }
 
-if (window.location.hostname == "hy-kitap.github.io") {
-    alert("Please remove Google Analytics from the code before re-using ePubViewer. Also, ensure the MIT license terms are being followed.");
-    window.location = "https://hy-kitap.github.io/viewer/ePubViewer3";
-}
+// if (window.location.hostname == "hy-kitap.github.io") {
+//     alert("Please remove Google Analytics from the code before re-using ePubViewer. Also, ensure the MIT license terms are being followed.");
+//     window.location = "https://hy-kitap.github.io/viewer/ePubViewer3";
+// }
 
 // https://devnode.devtechnosys.tech/holyreads/
 if (window.location.toString().indexOf("/holyreads") > -1) {
