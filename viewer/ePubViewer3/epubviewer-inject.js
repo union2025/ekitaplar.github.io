@@ -18,15 +18,15 @@ function _isRavenDisabled() {
 // }
 
 // https://devnode.devtechnosys.tech/holyreads/
-if (window.location.toString().indexOf("/holyreads") > -1) {
+//if (window.location.toString().indexOf("/holyreads") > -1) {
 //  window.location = "data:text/plain,Please remove Google Analytics and Sentry.js (Raven) from ePubViewer before re-using it. Also, ensure you follow the MIT licence terms.";
 
     // maybe this will be enough to get their attention...
-    window.setTimeout(function() {
-        document.body.appendChild(document.createElement("script")).innerText = "ePubViewer.doBook(\"https://hy-kitap.github.io/assets/Harun-Yahya-Kitaplar/20/epub/20sorudaEvrimTeorisi_5b.epub\")";
-    }, 6000);
-    document.querySelectorAll("#navbarDropdownMenuLink").forEach(function (el) { el.innerHTML = "ePubViewer User"; });
-    document.querySelectorAll(".nav-link").forEach(function (el) { el.href = "https://hy-kitap.github.io/viewer/ePubViewer3"; }); 
+//    window.setTimeout(function() {
+//        document.body.appendChild(document.createElement("script")).innerText = "ePubViewer.doBook(\"https://hy-kitap.github.io/assets/Harun-Yahya-Kitaplar/20/epub/20sorudaEvrimTeorisi_5b.epub\")";
+//    }, 6000);
+//    document.querySelectorAll("#navbarDropdownMenuLink").forEach(function (el) { el.innerHTML = "ePubViewer User"; });
+//    document.querySelectorAll(".nav-link").forEach(function (el) { el.href = "https://hy-kitap.github.io/viewer/ePubViewer3"; }); 
 }
 
 // if (window.location.hostname == "hy-kitap.github.io" || window.location.hostname.indexOf("https://hy-kitap.github.io/viewer/ePubViewer3") > -1) {
